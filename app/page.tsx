@@ -1,4 +1,4 @@
-import PortfolioAgent from "./portfolio-agent";
+import IncidentRoom from "./portfolio-agent";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -26,7 +26,7 @@ export default function Home() {
           <span>SYED MUHAMMAD HANZALA<br /><i>AI SYSTEMS ENGINEER</i></span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#agent">Agent</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+          <a href="#agent">Incident Room</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
         </nav>
         <a className="header-cta" href="/Syed_Muhammad_Hanzala_Resume.pdf" target="_blank" rel="noreferrer">Résumé <Arrow /></a>
       </header>
@@ -39,10 +39,10 @@ export default function Home() {
           <h1>AI systems.<span>Real products.</span></h1>
           <p className="hero-intro">I engineer the layer between a promising model and a product people can trust—from retrieval and evaluation to cloud architecture and the interface.</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#agent">Challenge the agent <span aria-hidden="true">↓</span></a>
+            <a className="button button-primary" href="#agent">Enter incident room <span aria-hidden="true">↓</span></a>
             <a className="button button-secondary" href="#work">See the evidence <Arrow /></a>
           </div>
-          <a className="hero-hook" href="#agent"><span>NOT A STATIC RÉSUMÉ</span><b>Ask this portfolio if I fit your role</b><i>↓</i></a>
+          <a className="hero-hook" href="#agent"><span>60-SECOND SYSTEMS CHALLENGE</span><b>A production AI system is failing. Can you recover it?</b><i>↓</i></a>
         </div>
 
         <div className="portrait-stage">
@@ -67,10 +67,10 @@ export default function Home() {
 
       <section className="agent-section" id="agent">
         <div className="section-intro agent-intro-heading">
-          <div><p className="eyebrow">THE INTERACTIVE HOOK / 01</p><h2>Don&apos;t take my word for it.<br /><span>Interrogate the work.</span></h2></div>
-          <p>Describe the engineer you need. This local evidence agent turns your brief into a plan, retrieves relevant projects, and cites the proof behind its recommendation.</p>
+          <div><p className="eyebrow">THE INTERACTIVE HOOK / 01</p><h2>You&apos;re on call.<br /><span>Recover the system.</span></h2></div>
+          <p>Choose a real production incident, make the first engineering decision, and see whether it addresses the cause. Then inspect the recovery I actually built.</p>
         </div>
-        <PortfolioAgent />
+        <IncidentRoom />
       </section>
 
       <section className="work-section" id="work">
