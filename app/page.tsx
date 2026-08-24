@@ -26,7 +26,7 @@ export default function Home() {
           <span>SYED MUHAMMAD HANZALA<br /><i>AI SYSTEMS ENGINEER</i></span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#agent">Incident Room</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+          <a href="#agent">Incident Room</a><a href="#onboardai">OnboardAI</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
         </nav>
         <a className="header-cta" href="/Syed_Muhammad_Hanzala_Resume.pdf" target="_blank" rel="noreferrer">Résumé <Arrow /></a>
       </header>
@@ -76,8 +76,35 @@ export default function Home() {
       <section className="work-section" id="work">
         <div className="section-intro">
           <div><p className="eyebrow">SELECTED SYSTEMS / 02</p><h2>Proof over<br /><span>promises.</span></h2></div>
-          <p>Six systems across retrieval, multimodal ML, full-stack product delivery, distributed services, mobile, and computer vision.</p>
+          <p>Seven systems across trustworthy AI automation, retrieval, multimodal ML, full-stack delivery, distributed services, mobile, and computer vision.</p>
         </div>
+
+        <article className="onboard-showcase" id="onboardai">
+          <div className="onboard-copy">
+            <div className="onboard-label"><span>LIVE SYSTEM / NEW</span><b>AGENTIC AUTOMATION</b></div>
+            <p className="project-kicker">INDEPENDENT PRODUCT · TRUSTWORTHY AI OPERATIONS</p>
+            <h3>OnboardAI</h3>
+            <p>A production-shaped onboarding agent for SaaS teams and digital agencies. It converts messy client briefs into structured plans, applies deterministic safety policy, pauses risky work for human approval, and leaves a complete audit trail.</p>
+            <div className="onboard-signals" aria-label="OnboardAI evaluation results">
+              <span><b>24/24</b> policy decisions</span>
+              <span><b>12/12</b> unsafe runs blocked</span>
+              <span><b>HITL</b> approval gate</span>
+            </div>
+            <div className="onboard-links">
+              <a href="https://onboard-ai.shadowxoxo.chatgpt.site" target="_blank" rel="noreferrer">Open live workflow <Arrow /></a>
+              <a href="https://github.com/Hanzala-Shadow/OnboardAI" target="_blank" rel="noreferrer">Source &amp; architecture <Arrow /></a>
+            </div>
+          </div>
+          <div className="onboard-frame">
+            <div className="onboard-framebar"><span>INTERACTIVE PREVIEW</span><b>PUBLIC DEMO</b></div>
+            <iframe
+              src="https://onboard-ai.shadowxoxo.chatgpt.site/embed"
+              title="Interactive preview of OnboardAI"
+              loading="lazy"
+              sandbox="allow-scripts allow-same-origin allow-popups"
+            />
+          </div>
+        </article>
 
         <article className="flagship flagship-violet" id="rag">
           <div className="flagship-index"><span>CASE / 01</span><b>AI + CLOUD</b></div>
