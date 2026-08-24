@@ -3,9 +3,11 @@ import "./globals.css";
 
 const title = "Syed Muhammad Hanzala — AI Systems & Product Engineering";
 const description = "AI systems engineer and full-stack product builder creating measurable RAG, cloud, backend, and web products.";
+const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? process.env.VERCEL_URL;
+const metadataBase = new URL(vercelHost ? `https://${vercelHost}` : "https://hanzala-portfolio.shadowxoxo.chatgpt.site");
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hanzala-portfolio.vercel.app"),
+  metadataBase,
   title,
   description,
   authors: [{ name: "Syed Muhammad Hanzala" }],
